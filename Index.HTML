@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML CSS Example</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Laundry Wallah/ Laundry Mart</h1>
+    </header>
+
+    <main>
+        <section id="About">
+            <h2>About Us</h2>
+            <p>Welcome to Laundry Mart, where laundry day meets convenience and care. Step into our world of spotless clothes, sparkling service, and unexpected stories. Whether you're here for a quick wash or a weekly ritual, you'll find more than just machines humming — you’ll find characters, surprises, and a dash of magic in every spin. From sock mysteries to dryer dramas, Laundry Mart is the neighborhood hub where clean clothes and quirky tales unfold. Come for the clean, stay for the story.</p>
+        </section>
+
+        <section id="image">
+            <img src="https://article.images.consumerreports.org/image/upload/t_article_tout/v1729276633/prod/content/dam/CRO-Images-2024/Appliances/CR-Appliances-InlineHero-Matching-Washer-Dryer-Sets-Update-1024" alt="Laundry Mart Image" height="150">
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Wash and Fold</li>
+                <li>Dry Cleaning</li>
+                <li>Ironing Services</li>
+                <li>Stain Removal</li>
+                <li>Pickup and Delivery</li>
+            </ul>
+        </section>
+
+        <section id="price">
+            <h2>Pricing</h2>
+            <table border="2">
+                <thead>
+                    <tr>
+                        <th>Service</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Wash and Fold</td>
+                        <td>Rs 5 per pound</td>
+                    </tr>
+                    <tr>
+                        <td>Dry Cleaning</td>
+                        <td>Rs 70 per item</td>
+                    </tr>
+                    <tr>
+                        <td>Ironing Services</td>
+                        <td>Rs 10 per item</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="Booking">
+            <h2>Book Now</h2>
+            <form action="">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <br><br>
+                <label for="service">Select Service:</label>
+                <input type="checkbox" id="wash" name="service" value="Wash and Fold">
+                <label for="wash">Wash and Fold</label>
+                <input type="checkbox" id="dryclean" name="service" value="Dry Cleaning">
+                <label for="dryclean">Dry Cleaning</label>
+                <input type="checkbox" id="ironing" name="service" value="Ironing Services">
+                <label for="ironing">Ironing Services</label>
+                <br><br>
+                <input type="submit" value="Book Now">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>contact us at :<a href="mailto:info@laundrymart.com.">info@laundrymart.com.</a></p>
+    </footer>
+</body>
